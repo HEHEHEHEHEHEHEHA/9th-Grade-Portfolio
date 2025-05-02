@@ -1,0 +1,13 @@
+@font-face {
+    font-family:myFirstFont ;
+    src: url(simpletix.otf);
+}
+.head{
+    font-family: myFirstFont;
+}
+h1{
+    text-align: center;
+}
+project-card{
+ display: inline;
+}
