@@ -7,12 +7,45 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>9th Grade Portfolio</h1>
+  <h1>9th Grade Portfolio</h1>
+  <div class="cards-container">
+
     <div class="project-card">
-    <h2>Hack Halloween</h2>
-    <p>In the first magor progect we did this year was called Hack Halloween. for this project we neede to make ahalloween hemed project in 8 days with interesting features. 
-        In my game you needed to click a randomly moving pumpkin in a time frame of 30 secnds without letting the ghost touch you. if it touched you you died an needed to star again. 
-        there is a start button, a reset button, and a score counter.</p>
+      <div class="card-tag tag-js">p5.js + p5.play</div>
+      <h2>Plinko</h2>
+      <p class="card-sub">physics betting game</p>
+      <p>A Plinko-style chip dropper with real physics. Drop balls through a peg field and watch them land in multiplier cups ranging from 0.2× to 250×.</p>
+      <ul>
+        <li>Gravity and bounce physics via p5.play</li>
+        <li>Drop single or 10 balls at once</li>
+        <li>Chip balance tracked in real time</li>
+      </ul>
     </div>
+
+    <div class="project-card">
+      <div class="card-tag tag-js">p5.js</div>
+      <h2>Blackjack</h2>
+      <p class="card-sub">card game with dealer AI</p>
+      <p>A fully playable Blackjack game with a 52-card deck, ace soft/hard logic, dealer AI that hits until 17, and a full chip betting system.</p>
+      <ul>
+        <li>Hit, Stay, and Push (tie) outcomes</li>
+        <li>Dealer hits until 17+</li>
+        <li>Bet validation and chip tracking</li>
+      </ul>
+    </div>
+
+    <div class="project-card">
+      <div class="card-tag tag-cpp">C++</div>
+      <h2>File Quiz</h2>
+      <p class="card-sub">fstream &amp; vectors</p>
+      <p>A console quiz on C++ file I/O concepts. Answers log to a .txt file via ofstream, then get read back to the console with ifstream.</p>
+      <ul>
+        <li>struct-based question bank</li>
+        <li>Vector loop over all questions</li>
+        <li>File write and read-back</li>
+      </ul>
+    </div>
+
+  </div>
 </body>
 </html>
